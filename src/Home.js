@@ -2,7 +2,7 @@ import React from "react";
 import "./home.css";
 import FontAwesome from 'react-fontawesome'
 import  logo from './myntraLogo.png'
-export default class Fetch extends React.Component{
+export default class Home extends React.Component{
     state={
         loading:true,
         product:[],
